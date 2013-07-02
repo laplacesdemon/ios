@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67E35F3217835D900079233A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E35F3117835D900079233A /* UIKit.framework */; };
+		67E35F3417835D900079233A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E35F3317835D900079233A /* Foundation.framework */; };
+		67E35F3617835D900079233A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E35F3517835D900079233A /* CoreGraphics.framework */; };
+		67E35F3C17835D900079233A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67E35F3A17835D900079233A /* InfoPlist.strings */; };
+		67E35F3E17835D900079233A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E35F3D17835D900079233A /* main.m */; };
+		67E35F4217835D900079233A /* SAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E35F4117835D900079233A /* SAAppDelegate.m */; };
+		67E35F4417835D900079233A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 67E35F4317835D900079233A /* Default.png */; };
+		67E35F4617835D900079233A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67E35F4517835D900079233A /* Default@2x.png */; };
+		67E35F4817835D900079233A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67E35F4717835D900079233A /* Default-568h@2x.png */; };
+		67E35F4B17835D900079233A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E35F4917835D900079233A /* MainStoryboard_iPhone.storyboard */; };
+		67E35F4E17835D900079233A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E35F4C17835D900079233A /* MainStoryboard_iPad.storyboard */; };
+		67E35F5117835D900079233A /* SAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E35F5017835D900079233A /* SAViewController.m */; };
+		67E35F5917835D900079233A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E35F5817835D900079233A /* SenTestingKit.framework */; };
+		67E35F5A17835D900079233A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E35F3117835D900079233A /* UIKit.framework */; };
+		67E35F5B17835D900079233A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E35F3317835D900079233A /* Foundation.framework */; };
+		67E35F6317835D900079233A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67E35F6117835D900079233A /* InfoPlist.strings */; };
+		67E35F6617835D900079233A /* SonrakiAdimTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E35F6517835D900079233A /* SonrakiAdimTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67E35F5C17835D900079233A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67E35F2617835D900079233A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67E35F2D17835D900079233A;
+			remoteInfo = SonrakiAdim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67E35F2E17835D900079233A /* SonrakiAdim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SonrakiAdim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E35F3117835D900079233A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		67E35F3317835D900079233A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		67E35F3517835D900079233A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		67E35F3917835D900079233A /* SonrakiAdim-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SonrakiAdim-Info.plist"; sourceTree = "<group>"; };
+		67E35F3B17835D900079233A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67E35F3D17835D900079233A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67E35F3F17835D900079233A /* SonrakiAdim-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SonrakiAdim-Prefix.pch"; sourceTree = "<group>"; };
+		67E35F4017835D900079233A /* SAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAAppDelegate.h; sourceTree = "<group>"; };
+		67E35F4117835D900079233A /* SAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAAppDelegate.m; sourceTree = "<group>"; };
+		67E35F4317835D900079233A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		67E35F4517835D900079233A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		67E35F4717835D900079233A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		67E35F4A17835D900079233A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		67E35F4D17835D900079233A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		67E35F4F17835D900079233A /* SAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAViewController.h; sourceTree = "<group>"; };
+		67E35F5017835D900079233A /* SAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAViewController.m; sourceTree = "<group>"; };
+		67E35F5717835D900079233A /* SonrakiAdimTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonrakiAdimTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E35F5817835D900079233A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		67E35F6017835D900079233A /* SonrakiAdimTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SonrakiAdimTests-Info.plist"; sourceTree = "<group>"; };
+		67E35F6217835D900079233A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67E35F6417835D900079233A /* SonrakiAdimTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SonrakiAdimTests.h; sourceTree = "<group>"; };
+		67E35F6517835D900079233A /* SonrakiAdimTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonrakiAdimTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67E35F2B17835D900079233A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E35F3217835D900079233A /* UIKit.framework in Frameworks */,
+				67E35F3417835D900079233A /* Foundation.framework in Frameworks */,
+				67E35F3617835D900079233A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E35F5317835D900079233A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E35F5917835D900079233A /* SenTestingKit.framework in Frameworks */,
+				67E35F5A17835D900079233A /* UIKit.framework in Frameworks */,
+				67E35F5B17835D900079233A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67E35F2517835D900079233A = {
+			isa = PBXGroup;
+			children = (
+				67E35F3717835D900079233A /* SonrakiAdim */,
+				67E35F5E17835D900079233A /* SonrakiAdimTests */,
+				67E35F3017835D900079233A /* Frameworks */,
+				67E35F2F17835D900079233A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67E35F2F17835D900079233A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67E35F2E17835D900079233A /* SonrakiAdim.app */,
+				67E35F5717835D900079233A /* SonrakiAdimTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67E35F3017835D900079233A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67E35F3117835D900079233A /* UIKit.framework */,
+				67E35F3317835D900079233A /* Foundation.framework */,
+				67E35F3517835D900079233A /* CoreGraphics.framework */,
+				67E35F5817835D900079233A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67E35F3717835D900079233A /* SonrakiAdim */ = {
+			isa = PBXGroup;
+			children = (
+				67E35F4017835D900079233A /* SAAppDelegate.h */,
+				67E35F4117835D900079233A /* SAAppDelegate.m */,
+				67E35F4917835D900079233A /* MainStoryboard_iPhone.storyboard */,
+				67E35F4C17835D900079233A /* MainStoryboard_iPad.storyboard */,
+				67E35F4F17835D900079233A /* SAViewController.h */,
+				67E35F5017835D900079233A /* SAViewController.m */,
+				67E35F3817835D900079233A /* Supporting Files */,
+			);
+			path = SonrakiAdim;
+			sourceTree = "<group>";
+		};
+		67E35F3817835D900079233A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67E35F3917835D900079233A /* SonrakiAdim-Info.plist */,
+				67E35F3A17835D900079233A /* InfoPlist.strings */,
+				67E35F3D17835D900079233A /* main.m */,
+				67E35F3F17835D900079233A /* SonrakiAdim-Prefix.pch */,
+				67E35F4317835D900079233A /* Default.png */,
+				67E35F4517835D900079233A /* Default@2x.png */,
+				67E35F4717835D900079233A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67E35F5E17835D900079233A /* SonrakiAdimTests */ = {
+			isa = PBXGroup;
+			children = (
+				67E35F6417835D900079233A /* SonrakiAdimTests.h */,
+				67E35F6517835D900079233A /* SonrakiAdimTests.m */,
+				67E35F5F17835D900079233A /* Supporting Files */,
+			);
+			path = SonrakiAdimTests;
+			sourceTree = "<group>";
+		};
+		67E35F5F17835D900079233A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67E35F6017835D900079233A /* SonrakiAdimTests-Info.plist */,
+				67E35F6117835D900079233A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67E35F2D17835D900079233A /* SonrakiAdim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E35F6917835D900079233A /* Build configuration list for PBXNativeTarget "SonrakiAdim" */;
+			buildPhases = (
+				67E35F2A17835D900079233A /* Sources */,
+				67E35F2B17835D900079233A /* Frameworks */,
+				67E35F2C17835D900079233A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SonrakiAdim;
+			productName = SonrakiAdim;
+			productReference = 67E35F2E17835D900079233A /* SonrakiAdim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67E35F5617835D900079233A /* SonrakiAdimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E35F6C17835D900079233A /* Build configuration list for PBXNativeTarget "SonrakiAdimTests" */;
+			buildPhases = (
+				67E35F5217835D900079233A /* Sources */,
+				67E35F5317835D900079233A /* Frameworks */,
+				67E35F5417835D900079233A /* Resources */,
+				67E35F5517835D900079233A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67E35F5D17835D900079233A /* PBXTargetDependency */,
+			);
+			name = SonrakiAdimTests;
+			productName = SonrakiAdimTests;
+			productReference = 67E35F5717835D900079233A /* SonrakiAdimTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67E35F2617835D900079233A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = sonrakiadim;
+			};
+			buildConfigurationList = 67E35F2917835D900079233A /* Build configuration list for PBXProject "SonrakiAdim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 67E35F2517835D900079233A;
+			productRefGroup = 67E35F2F17835D900079233A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67E35F2D17835D900079233A /* SonrakiAdim */,
+				67E35F5617835D900079233A /* SonrakiAdimTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67E35F2C17835D900079233A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E35F3C17835D900079233A /* InfoPlist.strings in Resources */,
+				67E35F4417835D900079233A /* Default.png in Resources */,
+				67E35F4617835D900079233A /* Default@2x.png in Resources */,
+				67E35F4817835D900079233A /* Default-568h@2x.png in Resources */,
+				67E35F4B17835D900079233A /* MainStoryboard_iPhone.storyboard in Resources */,
+				67E35F4E17835D900079233A /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E35F5417835D900079233A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E35F6317835D900079233A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67E35F5517835D900079233A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67E35F2A17835D900079233A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E35F3E17835D900079233A /* main.m in Sources */,
+				67E35F4217835D900079233A /* SAAppDelegate.m in Sources */,
+				67E35F5117835D900079233A /* SAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E35F5217835D900079233A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E35F6617835D900079233A /* SonrakiAdimTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67E35F5D17835D900079233A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67E35F2D17835D900079233A /* SonrakiAdim */;
+			targetProxy = 67E35F5C17835D900079233A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67E35F3A17835D900079233A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67E35F3B17835D900079233A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		67E35F4917835D900079233A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67E35F4A17835D900079233A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		67E35F4C17835D900079233A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67E35F4D17835D900079233A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		67E35F6117835D900079233A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67E35F6217835D900079233A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67E35F6717835D900079233A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67E35F6817835D900079233A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67E35F6A17835D900079233A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SonrakiAdim/SonrakiAdim-Prefix.pch";
+				INFOPLIST_FILE = "SonrakiAdim/SonrakiAdim-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		67E35F6B17835D900079233A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SonrakiAdim/SonrakiAdim-Prefix.pch";
+				INFOPLIST_FILE = "SonrakiAdim/SonrakiAdim-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		67E35F6D17835D900079233A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SonrakiAdim.app/SonrakiAdim";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SonrakiAdim/SonrakiAdim-Prefix.pch";
+				INFOPLIST_FILE = "SonrakiAdimTests/SonrakiAdimTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		67E35F6E17835D900079233A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SonrakiAdim.app/SonrakiAdim";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SonrakiAdim/SonrakiAdim-Prefix.pch";
+				INFOPLIST_FILE = "SonrakiAdimTests/SonrakiAdimTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67E35F2917835D900079233A /* Build configuration list for PBXProject "SonrakiAdim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E35F6717835D900079233A /* Debug */,
+				67E35F6817835D900079233A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67E35F6917835D900079233A /* Build configuration list for PBXNativeTarget "SonrakiAdim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E35F6A17835D900079233A /* Debug */,
+				67E35F6B17835D900079233A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67E35F6C17835D900079233A /* Build configuration list for PBXNativeTarget "SonrakiAdimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E35F6D17835D900079233A /* Debug */,
+				67E35F6E17835D900079233A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67E35F2617835D900079233A /* Project object */;
+}
