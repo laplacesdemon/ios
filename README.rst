@@ -1,7 +1,8 @@
-ios
-===
+====================
+Sonraki Adim iOS App
+====================
 
-SonrakiAdim iOS app
+App description should come here.
 
 Installation
 ============
