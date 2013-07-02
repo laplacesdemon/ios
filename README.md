@@ -1,4 +1,0 @@
-ios
-===
-
-SonrakiAdim iOS app
